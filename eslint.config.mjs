@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Artefak Playwright: trace, laporan HTML, dan bundle JS-nya bukan kode kita.
+    "test-results/**",
+    "playwright-report/**",
   ]),
 ]);
 

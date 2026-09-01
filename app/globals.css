@@ -1,26 +1,215 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "@fontsource/open-sauce-one/400.css";
+@import "@fontsource/open-sauce-one/500.css";
+@import "@fontsource/open-sauce-one/600.css";
+@import "@fontsource/open-sauce-one/700.css";
+@import "@fontsource/open-sauce-one/800.css";
+
+/* ─────────────────────────────────────────────────────────────
+   Token diambil dari tokopedia.com asli — lihat design/tokopedia.com.md
+   ───────────────────────────────────────────────────────────── */
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-heading: var(--font-sans);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  /* Brand — hijau Tokopedia terukur: rgb(0,170,91) */
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-border: var(--brand-border);
+
+  /* Ground abu di belakang kartu — 31% area halaman aslinya */
+  --color-ground: var(--ground);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-sale: var(--sale);
+  --color-sale-soft: var(--sale-soft);
+  --color-bonus: var(--bonus);
+  --color-star: var(--star);
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+
+  /* Satu-satunya shadow di sistem ini. Kedalaman lain pakai border. */
+  --shadow-card: 0 1px 6px rgba(0, 0, 0, 0.1);
+  --shadow-pop: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+  --ease-toped: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --background: #ffffff;
+  --foreground: #080808;
+
+  --brand: #00aa5b;
+  --brand-hover: #009151;
+  --brand-soft: #e5f6ee;
+  --brand-border: #b8e4cd;
+
+  --ground: #f2f4f7;
+  --ink: #080808;
+  --ink-muted: #656c7b;
+  --ink-faint: rgba(77, 83, 94, 0.68);
+  --line: #e6e9f0;
+
+  --sale: #ff5c5c;
+  --sale-soft: #fff0f0;
+  --bonus: #ff7f39;
+  --star: #ffc400;
+
+  --card: #ffffff;
+  --card-foreground: #080808;
+  --popover: #ffffff;
+  --popover-foreground: #080808;
+  --primary: #00aa5b;
+  --primary-foreground: #ffffff;
+  --secondary: #f2f4f7;
+  --secondary-foreground: #080808;
+  --muted: #f2f4f7;
+  --muted-foreground: #656c7b;
+  --accent: #f2f4f7;
+  --accent-foreground: #080808;
+  --destructive: #ef4444;
+  --border: #e6e9f0;
+  --input: #e6e9f0;
+  --ring: #00aa5b;
+  --radius: 8px;
+
+  --font-sans:
+    "Open Sauce One", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Aslinya lompat 400 → 700/800, tidak ada tingkat menengah. */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+
+  ::selection {
+    background: var(--brand-soft);
+    color: var(--brand-hover);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* Lebar konten Tokopedia di viewport 1440 ≈ 1208px */
+  .toped-container {
+    width: 100%;
+    max-width: 1208px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+
+  .toped-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+
+  .toped-surface {
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: var(--shadow-card);
+  }
+
+  .line-clamp-2-fixed {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.8em;
+  }
+}
+
+/* Skeleton shimmer — 1.2s, linear, tidak menarik perhatian */
+@keyframes toped-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.toped-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--ground) 25%,
+    #e8ebf0 37%,
+    var(--ground) 63%
+  );
+  background-size: 200% 100%;
+  animation: toped-shimmer 1.2s linear infinite;
+}
+
+/* Motion: durasi ≤ 280ms sesuai yang terukur di situs asli. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scrollbar tipis untuk baris kategori yang bisa digeser */
+.toped-scroll-x {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.toped-scroll-x::-webkit-scrollbar {
+  display: none;
 }

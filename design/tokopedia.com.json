@@ -1,0 +1,478 @@
+{
+  "url": "https://www.tokopedia.com/",
+  "title": "Situs Jual Beli Online Terlengkap, Mudah & Aman",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "errors": [],
+  "colors": {
+    "pageBackground": "rgb(255, 255, 255)",
+    "backgroundColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 55,
+        "areaPct": 69.1
+      },
+      {
+        "value": "rgb(242, 244, 247)",
+        "count": 27,
+        "areaPct": 30.7
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.44)",
+        "count": 5,
+        "areaPct": 0
+      },
+      {
+        "value": "rgb(0, 170, 91)",
+        "count": 4,
+        "areaPct": 0.1
+      },
+      {
+        "value": "rgb(230, 233, 240)",
+        "count": 2,
+        "areaPct": 0
+      },
+      {
+        "value": "rgb(8, 8, 8)",
+        "count": 1,
+        "areaPct": 0
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgba(0, 0, 0, 0.7)",
+        "count": 333
+      },
+      {
+        "value": "rgb(101, 108, 123)",
+        "count": 42
+      },
+      {
+        "value": "rgba(77, 83, 94, 0.68)",
+        "count": 20
+      },
+      {
+        "value": "rgb(8, 8, 8)",
+        "count": 12
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 8
+      },
+      {
+        "value": "rgb(0, 170, 91)",
+        "count": 5
+      }
+    ],
+    "accentCandidates": [
+      {
+        "value": "rgba(0, 0, 0, 0.7)",
+        "count": 348
+      },
+      {
+        "value": "rgb(101, 108, 123)",
+        "count": 25
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 22
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 15
+      },
+      {
+        "value": "rgb(0, 170, 91)",
+        "count": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.44)",
+        "count": 5
+      }
+    ]
+  },
+  "typography": {
+    "uniqueFamilies": [
+      {
+        "value": "Open Sauce One",
+        "count": 764
+      }
+    ],
+    "headings": {
+      "h2": {
+        "size": "28px",
+        "weight": "800",
+        "lineHeight": "33px",
+        "letterSpacing": "normal",
+        "family": "Open Sauce One"
+      },
+      "h1": {
+        "size": "14px",
+        "weight": "800",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "family": "Open Sauce One"
+      }
+    },
+    "body": {
+      "size": "14px",
+      "weight": "800",
+      "lineHeight": "18px",
+      "family": "Open Sauce One",
+      "maxWidth": "none"
+    },
+    "sizeDistribution": [
+      {
+        "value": "12px",
+        "count": 390
+      },
+      {
+        "value": "14px",
+        "count": 34
+      },
+      {
+        "value": "10px",
+        "count": 2
+      },
+      {
+        "value": "20px",
+        "count": 2
+      },
+      {
+        "value": "28px",
+        "count": 1
+      },
+      {
+        "value": "16px",
+        "count": 1
+      }
+    ],
+    "weightDistribution": [
+      {
+        "value": "400",
+        "count": 362
+      },
+      {
+        "value": "700",
+        "count": 41
+      },
+      {
+        "value": "800",
+        "count": 25
+      },
+      {
+        "value": "600",
+        "count": 1
+      },
+      {
+        "value": "900",
+        "count": 1
+      }
+    ]
+  },
+  "effects": {
+    "radii": [
+      {
+        "value": "8px",
+        "count": 39
+      },
+      {
+        "value": "4px",
+        "count": 18
+      },
+      {
+        "value": "12px",
+        "count": 12
+      },
+      {
+        "value": "16px",
+        "count": 7
+      },
+      {
+        "value": "8px 8px 0px 0px",
+        "count": 6
+      },
+      {
+        "value": "1px",
+        "count": 2
+      },
+      {
+        "value": "0px 100px 100px 0px",
+        "count": 1
+      },
+      {
+        "value": "10px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.1) 0px 1px 6px 0px",
+        "count": 6
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.12) 0px 1px 6px 0px",
+        "count": 1
+      }
+    ],
+    "transitions": [
+      "all",
+      "transform 0.28s",
+      "background 0.6s ease-out",
+      "color 0.2s",
+      "background-color 0.28s",
+      "color 0.28s"
+    ]
+  },
+  "spacingDistribution": [
+    {
+      "value": "8px",
+      "count": 67
+    },
+    {
+      "value": "12px",
+      "count": 43
+    },
+    {
+      "value": "10px",
+      "count": 39
+    },
+    {
+      "value": "6px",
+      "count": 22
+    },
+    {
+      "value": "16px",
+      "count": 14
+    },
+    {
+      "value": "4px",
+      "count": 11
+    },
+    {
+      "value": "24px",
+      "count": 10
+    },
+    {
+      "value": "9.38px",
+      "count": 8
+    },
+    {
+      "value": "196px",
+      "count": 6
+    },
+    {
+      "value": "25px",
+      "count": 6
+    },
+    {
+      "value": "188px",
+      "count": 6
+    },
+    {
+      "value": "302px",
+      "count": 5
+    },
+    {
+      "value": "110px",
+      "count": 3
+    },
+    {
+      "value": "70px",
+      "count": 3
+    },
+    {
+      "value": "40px",
+      "count": 2
+    }
+  ],
+  "buttons": [
+    {
+      "fontSize": "12px",
+      "fontWeight": "800",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "borderRadius": "8px",
+      "paddingTop": "0px",
+      "paddingLeft": "16px"
+    },
+    {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "borderRadius": "0px",
+      "paddingTop": "0px",
+      "paddingLeft": "0px"
+    },
+    {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "borderRadius": "4px",
+      "paddingTop": "0px",
+      "paddingLeft": "0px"
+    },
+    {
+      "fontSize": "14px",
+      "fontWeight": "800",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "borderRadius": "0px",
+      "paddingTop": "0px",
+      "paddingLeft": "24px"
+    },
+    {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "borderRadius": "8px",
+      "paddingTop": "0px",
+      "paddingLeft": "8px"
+    }
+  ],
+  "layout": {
+    "bodyPadding": "0px",
+    "containerMaxWidth": "none",
+    "containerPadding": "0px",
+    "containerWidth": "1440px"
+  },
+  "cards": [
+    {
+      "selector": "div.css-o6967z",
+      "width": "580px",
+      "height": "137px",
+      "ratio": "4.23:1",
+      "radius": "10px",
+      "shadow": null
+    }
+  ],
+  "images": [
+    {
+      "src": "data-uri (image/png, ~0KB)",
+      "naturalWidth": 120,
+      "naturalHeight": 120,
+      "ratio": "1.00:1",
+      "renderedWidth": "1208px",
+      "role": "hero"
+    },
+    {
+      "src": "https://p16-images-comn-sg.tokopedia-static.net/tos-alisg-i-zr7vqa5nfb-sg/3cb28731fce44ca1bc890e805b",
+      "naturalWidth": 1208,
+      "naturalHeight": 302,
+      "ratio": "4.00:1",
+      "renderedWidth": "1208px",
+      "role": "hero"
+    },
+    {
+      "src": "https://p16-images-comn-sg.tokopedia-static.net/tos-alisg-i-zr7vqa5nfb-sg/674b5b5b7aa44209b79f2e8dbf",
+      "naturalWidth": 1208,
+      "naturalHeight": 302,
+      "ratio": "4.00:1",
+      "renderedWidth": "1208px",
+      "role": "hero"
+    },
+    {
+      "src": "https://p16-images-comn-sg.tokopedia-static.net/tos-alisg-i-zr7vqa5nfb-sg/af1747801484437c9f98b8b37a",
+      "naturalWidth": 1208,
+      "naturalHeight": 302,
+      "ratio": "4.00:1",
+      "renderedWidth": "1208px",
+      "role": "hero"
+    },
+    {
+      "src": "data-uri (image/png, ~0KB)",
+      "naturalWidth": 120,
+      "naturalHeight": 120,
+      "ratio": "1.00:1",
+      "renderedWidth": "1208px",
+      "role": "hero"
+    },
+    {
+      "src": "https://p16-images-comn-sg.tokopedia-static.net/tos-alisg-i-zr7vqa5nfb-sg/home/banner-placeholder-wi",
+      "naturalWidth": 538,
+      "naturalHeight": 137,
+      "ratio": "3.93:1",
+      "renderedWidth": "580px",
+      "role": "feature"
+    },
+    {
+      "src": "https://p16-images-comn-sg.tokopedia-static.net/tos-alisg-i-zr7vqa5nfb-sg/img/iEWsxH/2023/4/27/8b1b8",
+      "naturalWidth": 96,
+      "naturalHeight": 96,
+      "ratio": "1.00:1",
+      "renderedWidth": "24px",
+      "role": "thumbnail"
+    },
+    {
+      "src": "https://p16-images-comn-sg.tokopedia-static.net/tos-alisg-i-zr7vqa5nfb-sg/home/welcome-banner-home.j",
+      "naturalWidth": 1208,
+      "naturalHeight": 151,
+      "ratio": "8.00:1",
+      "renderedWidth": "1200px",
+      "role": "hero"
+    },
+    {
+      "src": "https://p16-images-comn-sg.tokopedia-static.net/tos-alisg-i-zr7vqa5nfb-sg/seocontent/SEOcontent1.jpg",
+      "naturalWidth": 880,
+      "naturalHeight": 255,
+      "ratio": "3.45:1",
+      "renderedWidth": "440px",
+      "role": "feature"
+    }
+  ],
+  "spacingSamples": [
+    {
+      "tag": "section",
+      "margin": "0px 116px",
+      "padding": "0px",
+      "gap": "normal"
+    },
+    {
+      "tag": "h1",
+      "margin": "9.38px 0px",
+      "padding": "0px",
+      "gap": "normal"
+    },
+    {
+      "tag": "h2",
+      "margin": "0px",
+      "padding": "0px",
+      "gap": "normal"
+    },
+    {
+      "tag": "p",
+      "margin": "0px 4px",
+      "padding": "0px",
+      "gap": "normal"
+    },
+    {
+      "tag": "button",
+      "margin": "0px",
+      "padding": "0px 16px",
+      "gap": "normal"
+    }
+  ],
+  "sectionGaps": [
+    {
+      "between": "section[1]→section[2]",
+      "gap": 199
+    },
+    {
+      "between": "section[2]→section[3]",
+      "gap": 88
+    },
+    {
+      "between": "section[3]→section[4]",
+      "gap": 16
+    }
+  ],
+  "grid": null,
+  "gridCount": 0,
+  "focusVisible": true,
+  "reducedMotion": false
+}
